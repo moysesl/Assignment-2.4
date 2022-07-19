@@ -1,0 +1,47 @@
+body {background-color:navajowhite;
+font-family: arial, times new roman, verdana;}
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr .3fr 3fr 2fr .8fr .7fr;
+    grid-gap: 5px 5px 5px 5px 7px 7px;
+}
+body > * {outline: 1.5px solid black;
+}
+body > header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+body > nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+body > Who We Are {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+body > Our Mission {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+body > Our 4 Ministries {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+body > Upcoming Events {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+body > ol {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+body > footer {
+    grid-column: 1 / -1;
+    grid-row: 6;
+}
